@@ -32,17 +32,17 @@ sudo docker build -t glx_telegram_userbot .
 - Run
   Sebelum run pastikan kamu sudah build dahulu
 ```bash
-sudo docker run -d --network host --memory="1g" --memory-swap="1g" --restart always --name userbot_pm -v $(pwd):/app userbot_pm
+sudo docker run -d --network host --memory="1g" --memory-swap="1g" --restart always --name glx_telegram_userbot -v $(pwd):/app glx_telegram_userbot
 ```
 
 - Restart
   Jika kamu ingin mengganti config dengan yang baru silahkan restart ya
 ```bash 
-sudo docker restart userbot_pm
+sudo docker restart glx_telegram_userbot
 ```
 
 - Stop
   
 ```bash 
-sudo docker stop userbot_pm
+sudo docker stop glx_telegram_userbot
 ```
