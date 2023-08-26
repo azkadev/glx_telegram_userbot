@@ -57,6 +57,7 @@ Dikarenakan Gratisan Program ini memiliki limit
 
 1. Max Client (4)
 2. Ada Iklan
+3. Watermark Setiap Feature
 
 ## FEATURES
 
